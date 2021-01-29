@@ -1,0 +1,94 @@
+@startuml
+' Openet Skin for PlantUML
+' Version: 1.0
+' Author: Siew Weng Hwong
+' ===========
+' == Usage ==
+' ===========
+'
+' To use, add in the following text 
+' to your sequence diagram:
+' 
+'     !include OpenetSkin.txt
+'
+' 
+' Ensure that this file is in the same
+' directory as your sequence diagram
+' file.
+' 
+' See http://plantuml.sourceforge.net/ 
+' for further details.
+' =======================
+' == Colour References ==
+' =======================
+'
+' These hash values can be specified throughout your 
+' call flow. For example to have non-Openet participant 
+' boxes in Openet blue (rather than the default Openet 
+' Green) use the following command:
+' 	participant PCEF #3399CC
+' 
+' These values are used to set the default values in 
+' the skin below.
+' 
+' Openet Green   	#99CC33
+' Openet Dark Green #666600
+' Openet Blue    	#3399CC
+' Openet Dark Blue  #496192
+' Openet Orange  	#FF9933
+' Openet Red		#990033
+' Openet Purple  	#663399
+' Openet Grey		#999999
+' Openet Turquoise	#006666
+ 
+' ========================
+' == Set Default Values ==
+' ========================
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam noteFontSize 11
+skinparam noteFontColor #435608
+skinparam NoteBackgroundColor #FFFFFF
+skinparam NoteBorderColor blue
+
+skinparam sequence {
+	ArrowColor #990033
+	ArrowFontSize 12
+	ArrowFontType Helvetica
+	ActorBackgroundColor #99CC33
+	ActorBorderColor #435608		
+	ActorFontColor #435608 
+	ActorFontSize 11
+	ActorFontStyle bold
+	ActorFontName Aerial
+	
+	DividerBackgroundColor #990033
+	DividerFontColor white
+	
+	GroupBackgroundColor #6095C1
+
+	BoxLineColor #919396
+	BoxBackgroundColor #AEAFB3
+	
+	LifeLineBackgroundColor #6095C1
+	LifeLineBorderColor black
+	
+	ParticipantBackgroundColor #496192
+	ParticipantBorderColor #435608
+	ParticipantFontName Aerial
+	ParticipantFontSize 12
+	ParticipantFontStyle bold
+	ParticipantFontColor white
+	
+	DatabaseBackgroundColor #496192
+	DatabaseBorderColor #435608
+	DatabaseFontName Arial
+	DatabaseFontSize 10
+	
+	TitleFontColor #435608
+	TitleFontSize 18
+	TitleFontStyle Arial
+	TitleFontStyle bold
+	
+}
+@enduml
